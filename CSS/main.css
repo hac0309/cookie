@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CookieRun-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+.main-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.inner {
+  max-width: 1260px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+header {
+  width: 100%;
+}
+header .inner {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  /* border-bottom: 1px solid #000C; */
+}
+header .inner .logo img {
+  width: auto;
+  height: 80%;
+  margin-right: 0.625rem;
+  cursor: pointer;
+}
+header .inner .menu nav ul {
+  display: flex;
+}
+header .inner .menu nav ul li {
+  margin-left: 2.5rem;
+  font-size: 1.5rem;
+}
+header .inner .menu nav ul li a {
+  color: #000;
+  font-weight: 700;
+}
+
+
+.main {
+  background-image: url('../image/20240229_KV_desktop_85069ee40d.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  width: 100%;
+  min-width: 100%;
+  height: 77vh;
+  /* position: relative; */
+  /* z-index: -999; */
+}
+.main::before {
+  
+}
+.main .inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main .inner .main_photo {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 310px;
+}
+.main .inner .main_photo .oven-logo > img {
+  margin: 0 auto;
+}
+.main .inner .down-btns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main .inner .down-btns > img {
+  margin-right: 15px;
+}
+
+.hot-issue {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+.hot-issue .inner {
+  width: 100%;
+  text-align: center;
+}
+.hot-issue .inner .textbox {
+  padding-bottom: 20px;
+}
+.hot-issue .inner .issue-box > img {
+  width: 25%;
+}
